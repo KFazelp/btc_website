@@ -1,9 +1,48 @@
 <?php get_header(); ?>
 
-<div class="top-sec" id="Home">
-    <div class="top-sec-text">
-        <div class="top-sec-title">Bank Technology Consultant</div>
+<div id="mainSlider" class="carousel slide top-sec" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#mainSlider" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div id="slider-image-0" class="item active">
+            <div class="top-sec-text">
+                <div class="top-sec-title">LONDON</div>
+            </div>
+        </div>
+        <div id="slider-image-1" class="item">
+            <div class="top-sec-text">
+                <div class="top-sec-title">GENEVA</div>
+            </div>
+        </div>
     </div>
+
+    <style>
+        .item {
+            height: 760px;
+            width: 100%;
+            padding-top: 450px;
+        }
+        #slider-image-0 {
+            background: url("<?php echo get_template_directory_uri(); ?>/assets/new-main-bg.jpg") bottom no-repeat;
+            background-size: cover;
+        }
+        #slider-image-1 {
+            background: url("<?php echo get_template_directory_uri(); ?>/assets/geneva-1.jpeg") bottom no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <a class="left carousel-control" href="#mainSlider" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#mainSlider" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
 <div class="slogan-sec">

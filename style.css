@@ -37,20 +37,19 @@ body {
     direction: ltr;
     margin: 0;
     padding: 0;
-    background: whitesmoke;
     font-family: arial;
     overflow-x: hidden;
-    background: #1e1d22;
+    background: #1e1d22 !important;
 }
 
 a {
-    text-decoration: none;
-    color: whitesmoke;
-    transition: 200ms;
+    text-decoration: none !important;
+    color: whitesmoke !important;
+    transition: 200ms !important;
 }
 
 a:hover {
-    color: darkgrey;
+    color: darkgrey !important;
 }
 
 textarea {
@@ -133,6 +132,7 @@ input {
     position: absolute;
     width: 100%;
     border-bottom: solid thin white;
+    z-index: 100 !important;
 }
 .menu-icon {
     display: none !important;
@@ -159,7 +159,6 @@ input {
     align-items: center;
     padding: 10px 0;
     position: fixed;
-    height: 60px;
     width: 100%;
     border-bottom: solid 1px #888888;
     z-index: 900;
@@ -269,8 +268,6 @@ input {
 
 
 .top-sec {
-    background: url("assets/new-main-bg.jpg") bottom no-repeat;
-    background-size: cover;
     height: 760px;
     width: 100%;
 }
