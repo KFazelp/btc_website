@@ -21,7 +21,7 @@
     <a href="<?php echo site_url(); ?>/#Home" onclick="CloseSideNav()">Home</a>
     <a href="<?php echo site_url(); ?>/#PaymentSolutions" onclick="CloseSideNav()">Payment Solutions</a>
     <a href="<?php echo site_url(); ?>/products/" onclick="CloseSideNav()">Products</a>
-    <a href="<?php echo site_url(); ?>/#ContactUs" onclick="CloseSideNav()">Contact Us</a>
+    <a href="<?php echo site_url(); ?>/contact-us/" onclick="CloseSideNav()">Contact Us</a>
 
 
 
@@ -58,7 +58,7 @@
             <a href="<?php echo site_url(); ?>/#Home">Home</a>
             <a href="<?php echo site_url(); ?>/#PaymentSolutions">Payment Solutions</a>
             <a href="<?php echo site_url(); ?>/products/">Products</a>
-            <a href="<?php echo site_url(); ?>/#ContactUs">Contact Us</a>
+            <a href="<?php echo site_url(); ?>/contact-us/">Contact Us</a>
         </nav>
     </div>
 </div>

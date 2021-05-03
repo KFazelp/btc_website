@@ -50,7 +50,7 @@
     <div class="slogan-text">Take card payment through every method by setting-up the complete banking system in UK and Switzerland</div>
 </div>
 
-<div class="payment-sec">
+<div class="payment-sec" id="PaymentSolutions">
     <div class="payment-sec-title">PAYMENT METHODS</div>
     <div class="payment-container">
         <div class="payment-title">Virtual Payment</div>
