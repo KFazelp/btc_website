@@ -26,11 +26,11 @@
             padding-top: 450px;
         }
         #slider-image-0 {
-            background: url("<?php echo get_template_directory_uri(); ?>/assets/new-main-bg.jpg") bottom no-repeat;
+            background: url("<?php echo get_template_directory_uri(); ?>/assets/street.jpg") bottom no-repeat;
             background-size: cover;
         }
         #slider-image-1 {
-            background: url("<?php echo get_template_directory_uri(); ?>/assets/geneva-1.jpeg") bottom no-repeat;
+            background: url("<?php echo get_template_directory_uri(); ?>/assets/geneva.jpg") bottom no-repeat;
             background-size: cover;
         }
     </style>
