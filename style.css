@@ -690,11 +690,51 @@ input {
     margin: 20px !important;
 }
 
+
+/* contact us page */
+
+.contact-top-sec {
+    width: 100vw;
+    height: 760px;
+    background: #201b33;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contact-top-text {
+    font-size: 24px;
+    color: #939393;
+}
+.contact-top-title {
+    font-size: 56px;
+    color: #eeeeee;
+    font-weight: bold;
+}
+.contact-top-image {
+    background: url('assets/contact-us.png') center no-repeat;
+    background-size: contain;
+    width: 650px;
+    height: 600px;
+}
+.contact-form-box {
+    background: #1e1d22;
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-top: -160px;
+    margin-bottom: 20px;
+}
+
+.contact-form-field {
+    width: 85% !important;
+}
 .contact-section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    background: #181526;
+    padding: 20px 0;
 }
 .contact-container {
     width: 30%;
@@ -725,7 +765,6 @@ input {
 .customer-sec-text {
     width: 70%;
     margin: 0 auto;
-    padding: 40px;
     font-size: 22px;
     color: #989898;
     line-height: 30px;
@@ -754,13 +793,12 @@ input {
     /*border-radius: 5px;*/
     padding: 15px;
     margin: 10px auto;
-    width: 400px;
+    width: 432px;
     transition: 250ms;
 }
 .select-field {
     width: 432px;
 }
-
 
 /*footer*/
 
@@ -1124,7 +1162,7 @@ input {
     border: none;
     margin: 20px auto;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 20px;
     font-weight: bold;
     transition: 200ms;
 }
@@ -1354,7 +1392,7 @@ input {
     padding: 20px 10px;
     border-radius: 5px;
     margin: 0 20px;
-    height: 245px;
+    height: 290px;
     width: 20%;
 }
 .membership-card-photo {
@@ -1451,6 +1489,12 @@ input {
     .contact-container {width: 45%}
 }
 
+@media only screen and (max-width: 1127px) {
+    .contact-top-text {text-align: center;}
+    .contact-top-sec {padding-top: 180px;}
+    .contact-form-box {width: 90% !important; margin-top: 0;}
+}
+
 @media only screen and (max-width: 978px) {
     .about-col {display: block; text-align: center; margin: 0}
     .main-footer {display: block}
@@ -1526,6 +1570,8 @@ input {
     .operation-image {height: 280px; width: 320px}
     .service-box {width: 60%}
     .method-sec-sub-title {font-size: 18px}
+    .contact-top-title {font-size: 42px;}
+    .contact-top-text {font-size: 18px;}
 }
 
 @media only screen and (max-width: 531px) {
